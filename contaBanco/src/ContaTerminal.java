@@ -19,12 +19,8 @@ public class ContaTerminal {
             System.out.println("Olá " + nomeCliente.toUpperCase() + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + "," +
                     " conta " + numero + " e seu saldo de R$" + saldo + " já está disponivel para saque.");
         } catch (NumberFormatException e){
+            System.out.println("houve erro na conversão, digite valores validos");
 
         }
-
-
-
-
-
     }
 }
